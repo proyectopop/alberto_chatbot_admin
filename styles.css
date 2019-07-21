@@ -1,6 +1,20 @@
 :root {
   --color-principal: #201c32;
   --color-secundario: #fdac44;
+  --color-gris-claro: #f5e7eb;
+}
+
+#Admin {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 100px;
 }
 
 .fondo-primario,
@@ -14,13 +28,10 @@
 }
 
 .submit {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Arial;
-  color: #f5e7eb;
+  color: var(--color-gris-claro);
   font-size: 18px;
-  background: #201c32;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-left: 45%;
@@ -28,6 +39,8 @@
 }
 
 .submit:hover {
-  background: #095280;
+  border: 0;
+  background: var(--color-secundario);
+  cursor: pointer;
   text-decoration: none;
 }

@@ -23,47 +23,51 @@
     <title>Alberto Chatbot Admin</title>
   </head>
   <body>
+
+    <main id="Admin">
+      <img src="logo-final.png" class="logo">
+
       <form action="#" class="container" method="POST" enctype="multipart/form-data">
-    <div class="row">
-      <div class="col s6 push-s3">
-        <div class="row">
-          <div class="input-field col s12">
-            <i class="material-icons prefix">mode_edit</i>
-            <input type="text" id="autocomplete-input" class="autocomplete" />
-            <label for="autocomplete-input">Intención</label>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6 push-s3">
-        <div class="row">
-          <div class="input-field col s12">
-            <i class="material-icons prefix">mode_edit</i>
-            <input type="text" id="autocomplete-input2" class="autocomplete" />
-            <label for="autocomplete-input">Respuesta</label>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row" class="col s6 push-s3">
-        <div class="file-field input-field ">
-          <div class="btn fondo-primario">
-            <span>
-              <i class="material-icons left">add_a_photo</i>
-              Imagen
-            </span>
-            <input type="file" />
-          </div>
-          <div class="file-path-wrapper">
-            <input class="file-path validate" type="text" />
-          </div>
-        </div>
 
-        <input type="submit" class="submit">
+        <div class="row">
+          <div class="col s6 push-s3">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <input type="text" id="autocomplete-input" class="autocomplete" />
+                <label for="autocomplete-input">Intención</label>
+              </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col s6 push-s3">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <input type="text" id="autocomplete-input2" class="autocomplete" />
+                <label for="autocomplete-input">Respuesta</label>
+              </div>
+          </div>
+        </div>
+  
+        <div class="row">
+            <div class="file-field input-field col s6 push-s3">
+              <div class="btn fondo-primario">
+                <span>
+                  <i class="material-icons left">add_a_photo</i>
+                  Imagen
+                </span>
+                <input type="file" />
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" />
+              </div>
+            </div>
+  
+          <input type="submit" class="submit fondo-primario">
+  
+        </form>
+    </main>
 
-      </form>
-    </div>
   </body>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
