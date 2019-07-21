@@ -12,3 +12,22 @@
 .fondo-secundario:hover {
   background-color: var(--color-secundario);
 }
+
+.submit {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #f5e7eb;
+  font-size: 18px;
+  background: #201c32;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 45%;
+  margin-top: 80px;
+}
+
+.submit:hover {
+  background: #095280;
+  text-decoration: none;
+}
