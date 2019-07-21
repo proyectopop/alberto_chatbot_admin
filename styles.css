@@ -1,0 +1,14 @@
+:root {
+  --color-principal: #201c32;
+  --color-secundario: #fdac44;
+}
+
+.fondo-primario,
+.fondo-primario:hover {
+  background-color: var(--color-principal);
+}
+
+.fondo-secundario,
+.fondo-secundario:hover {
+  background-color: var(--color-secundario);
+}

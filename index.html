@@ -15,6 +15,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
+    <link href="./styles.css" rel="stylesheet" />
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -43,24 +45,26 @@
         </div>
       </div>
     </div>
-    <form action="#">
-      <div class="file-field input-field ">
-        <div class="btn" style="background-color: #201c32">
-          <span>
-            <i class="material-icons left">add_a_photo</i>
-            Imagen
-          </span>
-          <input type="file" />
+    <div class="row">
+      <form action="#" class="col s6 push-s3">
+        <div class="file-field input-field ">
+          <div class="btn fondo-primario">
+            <span>
+              <i class="material-icons left">add_a_photo</i>
+              Imagen
+            </span>
+            <input type="file" />
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text" />
+          </div>
         </div>
-        <div class="file-path-wrapper">
-          <input class="file-path validate" type="text" />
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </body>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var elems = document.querySelectorAll(".autocomplete");
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.autocomplete');
       var instances = M.Autocomplete.init(elems, options);
     });
   </script>
