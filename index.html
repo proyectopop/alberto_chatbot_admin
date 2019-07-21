@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -41,7 +46,10 @@
     <form action="#">
       <div class="file-field input-field">
         <div class="btn">
-          <span>Imagen</span>
+          <span>
+            <i class="material-icons left">add_a_photo</i>
+            Imagen
+          </span>
           <input type="file" />
         </div>
         <div class="file-path-wrapper">
@@ -51,8 +59,8 @@
     </form>
   </body>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var elems = document.querySelectorAll(".autocomplete");
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.autocomplete');
       var instances = M.Autocomplete.init(elems, options);
     });
   </script>
