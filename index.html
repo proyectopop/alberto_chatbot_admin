@@ -22,7 +22,7 @@
   </head>
   <body>
     <div class="row">
-      <div class="col s12">
+      <div class="col s6 push-s3">
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix">mode_edit</i>
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s12">
+      <div class="col s6 push-s3">
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix">mode_edit</i>
@@ -44,8 +44,8 @@
       </div>
     </div>
     <form action="#">
-      <div class="file-field input-field">
-        <div class="btn">
+      <div class="file-field input-field ">
+        <div class="btn" style="background-color: #201c32">
           <span>
             <i class="material-icons left">add_a_photo</i>
             Imagen
@@ -59,8 +59,8 @@
     </form>
   </body>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.autocomplete');
+    document.addEventListener("DOMContentLoaded", function() {
+      var elems = document.querySelectorAll(".autocomplete");
       var instances = M.Autocomplete.init(elems, options);
     });
   </script>
